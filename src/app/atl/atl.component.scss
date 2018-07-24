@@ -1,0 +1,142 @@
+.homebanner p{
+    color: black;
+}
+.headings{
+  color : white;
+}
+
+.paddingpbl{
+  margin-left: 1%;
+}
+.paddingpbl p{
+font-size: 16px;
+}
+.mat-expansion-panel{
+    border: 1px solid orangered;
+}
+.heading h3{
+    line-height: 10px;
+}
+// div{
+//   border: 1px solid green;
+// }
+// .mat-card{
+//   border: 1px solid red;
+// }
+.subcard2{
+    /* color: transparent; */
+    animation: move 2s infinite alternate;
+    // background-image: url(./../../assets/img/ss.jpg);
+  }
+.mtimage :hover{
+      display: none !important;
+    }
+.overlay img{
+    z-index: -1;
+    margin-left: 3%;
+  }
+  .overlay {
+    position: static;
+    overflow: hidden;
+    display: inline-block;
+    width: 90%;
+    height: 336px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 61px;
+    margin: 26px;
+    margin-left: 4%;
+}
+.mattitle{
+  margin-top: -21%;
+  color: white;
+  padding-left: 8%;
+}
+.smalll{
+  width: 100%;
+  height: 100%;
+  margin: 21%;
+  margin-top: 1%;
+}
+.overlay:hover{
+ .item {transform: scale(1.1);}
+}
+.homeban{
+  padding-top: 2%;
+}
+// 
+.atlbannners{
+  background-image: url(./../../assets/img/atlban111.jpg);
+  margin-bottom: 3%;
+  height: 300px;
+}
+.marginTopQuot{
+  margin-top: 9%;
+}
+@media only screen and (max-width: 768px) {
+
+  .atlbannners{
+  background-image: url(./../../assets/img/atlbannerr.jpg);
+}
+.marginbottom{
+  margin-bottom: 5%;
+}
+  .big{
+    display: none;
+  }
+  .mattitle {
+    margin-top: -70%;
+    margin-left: 21%;
+    // color: white;
+}
+.paddingpbl p{
+  font-size: 12px;
+  }
+.mattitle .btn-primary{
+  // margin-top: -70%;
+  margin-left: 3% !important;
+  // color: white;
+}
+mat-raised-button .btn-primary{
+  font-size: 22px;
+}
+.marginTopQuot{
+  margin-top: 22%;
+}
+.mattitle {
+  margin-top: -48%;
+}
+.overlay[_ngcontent-c3] {
+  height: 221px;
+}
+}
+.atlban{
+  height: 350px; 
+  width: 100%; 
+  justify-content: center;
+}
+@media only screen and (min-width: 769px) {
+ .specialpad{
+  padding-left: 8%!important;
+ }
+  .smalll{
+    display: none;
+  }
+  .heading {
+    // font-size: 26px
+  margin-left: -10%!important;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .atlban{
+    height: 500px; 
+  }
+  .hideqot{
+    display: none;
+  }
+}

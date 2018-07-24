@@ -1,0 +1,51 @@
+
+.dropdown.show .dropdown-menu{
+border-radius: 10px;
+}
+.dropdown .dropdown-menu .dropdown-item:hover{
+  background-color: lightblue;
+}
+.clearfix{
+  margin-left: 13px;
+}
+/* .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+} */
+.logo img{
+  width: 125px;
+  /* background-image: url("assets/img/sbl.png"); */
+}
+.navbar-nav{
+  margin-left: 20%;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: lightblue;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.nav-item :hover, .navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.2rem !important;
+  font-weight: 500;
+
+}
+/* @media only screen and (max-width: 768px) {
+  .matnav{
+    height: 50vh;
+  }
+  .mat-drawer{
+  width:100%;
+}
+} */
+

@@ -1,0 +1,84 @@
+// .pblimgae img{
+//     // width: 69%;
+//     // height: 376px;
+//     // background-image: url(./../../assets/img/pbl.png);
+// }
+.homebanner p{
+    color: black;
+}
+.bigbanner{
+  display: block;
+}
+.smallBanner{
+  display: none;
+}
+.paddingpbl{
+    margin: 4%;
+}
+
+.mat-expansion-panel{
+    border: 1px solid orangered;
+}
+
+.heading h3{
+    line-height: 10px;
+}
+.subcard2{
+    height: 180px;
+    width: 70%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    /* color: transparent; */
+    animation: move 2s infinite alternate;
+    background-image: url(./../../assets/img/campicon1.jpg);
+  }
+  .subcard2 div  {
+    display: none;
+  }
+  .subcard2:hover div{
+    display: block !important;
+  }
+  .subcard2:hover .mat-card-title , {
+    display: none !important;
+  }
+  .subcard2:hover{
+    background-color: #729f98;
+    background-image : none;
+    color: white;
+  }
+  .expansion {
+    margin-top: -5%;
+}
+@media only screen and (max-width: 480px) {
+  .bigbanner{
+    display: none;
+    background: white
+  }
+  .smallBanner{
+    display: block;
+  }
+  .smallBanner img{
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+}
+  @media only screen and (max-width: 992px) {
+    .paddingpbl img{
+      display: none;
+    }
+    
+    .aboutusblock{
+      font-size: 14px;
+      }
+      .expansion {
+        margin-top: 7%;
+    }
+    // .moreSection{
+    //     margin-left: 0%;
+    // }
+  }
+

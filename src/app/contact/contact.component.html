@@ -1,0 +1,137 @@
+<!-- <marker position="{{26.484274}},{{80.292614}}" draggable="true" on-mouseup="markerMove()" visible="true"></marker>
+<div #gmap style="width:100%;height:400px"></div> -->
+<div style="margin-left:5%; margin-top: 3% ;max-width: 1250px;">
+    <div class="row">
+        <div class="col-sm-6" style="border: 5px solid lightcyan;
+    border-radius: 32px;">
+            <h3 class="heading">Contact Us
+                <hr class="primary" style="margin-left: 1%">
+            </h3>
+            <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+                #mc_embed_signup {
+                    background: #fff;
+                    clear: left;
+                    font: 14px Helvetica, Arial, sans-serif;
+                }
+
+                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup">
+                <form [formGroup]="registerForm" ngNoForm action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" target="_blank" method="POST"
+                    id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <input type=hidden name="oid" value="00D7F000001aeoR">
+                    <input type=hidden name="retURL" value="http://www.stembridgelabs.com">
+                    <div id="mc_embed_signup_scroll">
+                        <h2>Get in touch</h2>
+                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+
+                         <div class="mc-field-group form-group">
+                            <label for="first_name">Name <span class="asterisk">*</span>
+                            </label>
+                            <input class="form-control" formControlName="nam" id="first_name" maxlength="40" name="first_name" size="20" type="text" [ngClass]="{ 'is-invalid': submitted && f.nam.errors }" />
+                            <div *ngIf="submitted && f.nam.errors" class="invalid-feedback">
+                                <div *ngIf="f.nam.errors.required">Name is required</div>
+                        </div>
+                        </div>
+                        <div class="mc-field-group form-group">
+                            <label for="email">Email Address <span class="asterisk">*</span>
+                            </label>
+                            <input class="form-control" formControlName="email" id="email" maxlength="80" name="email" size="20" type="text" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+                            <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                                <div *ngIf="f.email.errors.required">Email is required</div>
+                                <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+                            </div>
+
+                        </div>
+
+                        <div class="mc-field-group form-group">
+                            <label for="mobile">Phone Number <span class="asterisk">*</span>
+                            </label>
+                            <input class="form-control" formControlName="mob" id="mobile" maxlength="40" name="mobile" size="10" type="number" [ngClass]="{ 'is-invalid': submitted && f.mob.errors }" />
+                            <div *ngIf="submitted && f.mob.errors" class="invalid-feedback">
+                                <div *ngIf="f.mob.errors.required">Phone Number required</div>
+                        </div>
+                        </div>
+                        <div class="mc-field-group form-group">
+                            <label for="country">Leave your message <span class="asterisk">*</span>
+                            </label>
+                            <input class="form-control" formControlName="msg" id="00N7F00000O36cz" maxlength="180" name="00N7F00000O36cz" size="180" type="text" [ngClass]="{ 'is-invalid': submitted && f.msg.errors }" />
+                            <div *ngIf="submitted && f.msg.errors" class="invalid-feedback">
+                                <div *ngIf="f.msg.errors.required">Message is required</div>
+                        </div>
+                        </div>
+
+
+                        <div class="clear">
+                            <input (click)="onSubmit()" type="submit" value="submit" name="Submit" id="mc-embedded-subscribe"  class="btn btn-primary btn-lg">
+                        </div>
+                    </div>
+                    <!-- {{ngNoForm.validate}}======= -->
+                </form>
+            </div>
+
+            <!--End mc_embed_signup-->
+            
+        </div>
+
+
+        <div class=" offset-sm-1 col-sm-4">
+            <h3 class="heading">Address
+                <hr class="primary" style="margin-left: 1%">
+            </h3>
+            <div class="contact_address wow fadeInRight">
+                <!-- <h3>Address</h3> -->
+                <div class="address_group add">
+                    <p>
+                        <b>Corporate Office:</b>117/O/195 geeta nagar, near geeta nagar crossing, Kanpur.
+                    </p>
+                    <hr>
+                    <p>
+                        <b>Registered Office:</b>C-3/41, MAHAVIR ENCLAVE, DDA PARK PALAM New Delhi DL 110045.</p>
+                    <p>
+                        <b>Phone:</b> 8552902424, 9540669901</p>
+                    <p>
+                        <b>Email:</b>contact@stembridgelabs.com</p>
+                </div>
+                <div class="socialmedia-buttons smw_left">
+                    <a href="https://www.facebook.com/stembridgelabs/" rel="nofollow" target="_blank">
+                        <img width="32" height="32" src="http://stembridgelabs.com/blog/wp-content/plugins/social-media-widget/images/default/32/facebook.png"
+                            alt="Facebook" title="Facebook" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade">
+                    </a>
+                    <a href="https://twitter.com/StemBridgeLabs" rel="nofollow" target="_blank">
+                        <img width="32" height="32" src="http://stembridgelabs.com/blog/wp-content/plugins/social-media-widget/images/default/32/twitter.png"
+                            alt="Twitter" title="Twitter" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade">
+                    </a>
+                    <a href="https://www.linkedin.com/in/stembridge-labs-87791b141/" rel="nofollow" target="_blank">
+                        <img width="32" height="32" src="http://stembridgelabs.com/blog/wp-content/plugins/social-media-widget/images/default/32/linkedin.png"
+                            alt="Linkedin" title="Linkedin" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCt3BeTqQvDq_jF9p1ZYfKmg" rel="nofollow" target="_blank">
+                        <img width="32" height="32" src="http://stembridgelabs.com/blog/wp-content/plugins/social-media-widget/images/default/32/youtube.png"
+                            alt="youtube" title="youtube" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade">
+                    </a>
+                    <a href="https://plus.google.com/u/0/+StemBridgeLabs" rel="publisher" target="_blank">
+                        <img width="32" height="32" src="http://stembridgelabs.com/blog/wp-content/plugins/social-media-widget/images/default/32/googleplus.png"
+                            alt=" Google+" title=" Google+" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="col-sm-4">
+        <h3 class="heading">Reach Us
+            <hr class="primary" style="margin-left: 1%">
+        </h3>
+    </div>
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223.1946519533057!2d80.29251725127673!3d26.484260193368012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c3981ff8b04db%3A0x7d5dd347d0c3b8f1!2sStembridge+Labs!5e0!3m2!1sen!2sin!4v1529176213974" width="1346" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+    <agm-map [latitude]="lat" [longitude]="lng" [zoom]="15" style="height:300px">
+        <agm-marker [latitude]="lat" [longitude]="lng" [label]="labels"></agm-marker>
+    </agm-map>
+    <br>
+
+</div>

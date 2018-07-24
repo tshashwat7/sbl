@@ -1,0 +1,345 @@
+
+
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+@import url("//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+
+@import url("https://code.getmdl.io/1.3.0/material.indigo-blue.min.css");
+
+.heading{
+  font-family: graphik!important;
+  font-weight: 400 !important;
+}
+html{
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+hr.primary {
+    max-width: 100px;
+    border-color: blue;
+    border-width: 3px;
+    height: 0px!important;
+}
+hr {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border: 0;
+    border-top: 1px solid #dddddd;
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+body { 
+    font-family: Sailec-Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px; 
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    // max-width: 1349px!important/;
+    // overflow: hidden;
+}
+mat-card{
+  max-width: 100%;
+  
+}
+.aboutusblock{
+  font-size: 16px;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+
+}
+.homebanner{
+    height: 300px;
+ }
+ .homebanner1{
+  height: 410px;
+}
+*{
+    outline :none;
+}
+.mat-menu-panel{
+    background: white !important;
+}
+/* .cdk-overlay-pane{
+    margin-top: 4%;
+} */
+.slide-title{
+    display: none !important;
+    
+  }
+  .indigo {
+    background-color: black !important;
+    // height: 70px;
+  }
+.btn-primary{
+    border-color: hsla(0,0%,100%,.5);
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #0069ff;
+    border-radius: 5px;
+    color: #0069ff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Sailec-Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    padding: 11px 16px 8px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: background-color .25s linear,border-color .25s linear,color .25s linear;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.homebanner{
+    padding-top: 10%;
+  }
+  .homebanner1{
+    padding-top: 10%;
+  }
+  .homebanner p{
+    /* padding: 12px 0 9px; */
+    /* margin: 0; */
+    font-size: 16px;
+    line-height: 41px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* letter-spacing: 1.4px; */
+  }
+  .homebanner1 p{
+    /* padding: 12px 0 9px; */
+    /* margin: 0; */
+    font-size: 16px;
+    line-height: 41px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* letter-spacing: 1.4px; */
+  }
+  .container{
+    color :black;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px; 
+  }
+  .animateBanner{
+    animation-name: ban;
+    animation: ban 5s infinite alternate;
+    
+  }
+  @keyframes ban {
+    0% {
+      /* opacity: 0; */
+      transform: translate(3px , 10px);
+    }
+    100% {
+      /* opacity: 0; */
+      transform: translate(0 , 0px);
+    }
+  }
+.primary{
+  margin-left: 1%;
+}
+h2 {
+  font-size: 36px;
+  line-height: 35px;
+}
+
+.big{
+  width: 100%;
+}
+
+  .expansion{
+    margin-left: 6%;
+    width: 90%;
+}
+.mat-expansion-panel{
+    border: 1px solid orangered;
+}
+.paddingpbl p{
+    font-size: 16px;
+    font-weight: 400!important;
+    }
+    .btn-primary{
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    background-color: #0b51c5 !important;
+    font-size: 17px;
+    padding: 13px;
+    }
+    .moreSection{
+    // margin: -40px;
+    margin-left: 5%;
+}
+.subcard2{
+    height: 180px;
+    width: 70%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    animation: move 2s infinite alternate;
+  }
+
+  .subcard2 div  {
+    display: none;
+  }
+  .subcard2:hover div{
+    display: block !important;
+  }
+  .subcard2:hover .mat-card-title , {
+    display: none !important;
+  }
+  .subcard2:hover{
+    background-color: #729f98;
+    background-image : none;
+    color: white;
+  }
+
+  .socialmedia-buttons a{
+    padding: 4px;
+    font-size: 30px;
+    width: 40px;
+  }
+  label {
+    color: black;
+    font-weight: 500;
+}
+.margintp{
+  margin-top: 2%;
+}
+.row {
+  margin-right: 0px!important;
+  margin-left: 0px!important;
+}
+.margintop{
+  margin-top: -3%;
+}
+.marginCenter {
+  margin-left: 5%!important;
+}
+
+.slider-nav {
+  background-color: transparent!important;
+  color: orange!important;
+}
+
+.aboustusimg{
+  height:326px;
+  margin-top: 12%;
+  width: 100%
+}
+h5{
+  font-weight: bold;
+}
+.padcontent{
+  padding: 40px 26px 30px 65px;
+}
+@media only screen and (max-width: 769px) {
+.padcontent{
+    padding: 15px 3px 0px 23px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .marginCente{
+    margin-left: 7%;
+}
+.aboustusimg{
+
+  margin-top: 5%;
+}
+  .teams{
+    margin-left: 10%  !important;
+  }
+    .animateBanner h2{
+        font-size: 30px;
+    }
+    .hideSmall{
+        display: none;
+    }
+  .homebanner{
+      text-align: center ;
+      height: 200px;
+      padding: 0px;
+  }
+  .homebanner1{
+    text-align: center ;
+    height: 200px;
+    padding: 0px;
+}
+  .homebanner p {
+    font-size: 12px;
+    line-height: 31px;
+  }
+  .homebanner1 p {
+    font-size: 12px;
+    line-height: 31px;
+  }
+  .subcard5:hover {
+    height: 420px!important; 
+  }
+  /* padding: 0px */
+}
+@media only screen and (max-width: 769px) {
+  .aboutusblock , .paddingpbl p{
+    font-size: 14px;
+    }
+    
+    h3 , h4{
+    font-size: 22px;
+    }
+    h2{
+      font-size: 24px;
+      }
+    h1{
+      font-size: 25px;
+      }
+      .smallheading{
+      font-size: 25px!important;
+        
+      }
+      p{
+        font-size: 14px;
+        }
+      .subcard7 .hoverOn{
+        padding: 0px!important;
+      }
+      .subcard7:hover{
+        height: 400px!important;
+      }
+}
+@media (min-width: 1200px){
+  .container {
+     max-width: 1200px;
+ }
+ }
+ @media only screen and (max-width: 480px) {
+  .marginCenter {
+     width: 353px;
+ }
+ 
+ }
+//  *{
+//  }

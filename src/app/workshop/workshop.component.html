@@ -1,0 +1,193 @@
+<!-- <div class="row"> -->
+  <mat-card class="bigbanner"  style="background-image: url(assets/img/pblbackground.png); height: 300px;">
+ </mat-card>
+ <div class="smallBanner" style="height: 300px; margin-top: 3%">
+        <img src="assets/img/pbl.png">                        
+      </div>
+ 
+    <!-- <div class="homebanner" > -->
+            <div class="paddingpbl row">        
+                    <div class="col-sm-5 pblimgae animateBanner">
+                      <div>
+                      <img src=" assets/img/pblmat.jpeg" style="width: 100%;">
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-7"> 
+                        <h3 class="heading" style="color: black"><b>Project Based Learning Workshops</b>
+                        <hr class="primary">
+                    </h3> 
+                    
+                    <p class="aboutusblock">A student-centered pedagogy, Project-based learning (PBL) is considered an alternative to the teacher led classroom model. In fact, this will integrate theory and practice. The benefits are plenty including improved writing skill, understanding concepts, people and processes in an organization. </p>
+                    <p class="aboutusblock">
+                            StemBridge Labs is proud to offer the in-house school developed product “Make It Yourself” which has evolved in learning over project-based programs.
+                            it demands students engagement in problem-solving through 
+                        research, experimentation and applying the learned skills, At StemBridge Labs, 
+                        we believe that learning is best when concepts can be felt, seen, grasped and 
+                        implemented.
+                          </p>
+                    <ul class="aboutusblock" style="padding-left: 3%;" > <a style="color:blue; font-size: 20px"><b>Benefits</b></a>
+                      <li>Helpful for students to enhance their interpersonal skills, increases student motivation and engagement in learning.</li>
+                
+<li>Is more effective than traditional instruction in increasing academic achievement.</li>
+<li>Improves student retention of knowledge over time and Encourage students to develop a balanced, diverse approach to solve real-word problems, individually and in a team</li>
+<li>Improves mastery of 21st century skills.
+        <li>Is especially effective with lower- achieving students. <b>-Buck Institute</b></li>
+                    </ul>
+                      <button class="btn-primary" (click)="showDialog = !showDialog">Enquire</button>
+                  </div>
+            </div>
+            <div class="expansion">
+                <div class="row col-sm-4">
+                <h3 class="heading" style="color: black"><b>Key Points</b>
+                <hr class="primary"></h3>
+                </div> 
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title >
+                                Why Project Based Learning?
+                            </mat-panel-title>
+                            </mat-expansion-panel-header>
+                          <p>Because true learning comes from experimenting… The main advantage of project based learning is that it promotes problem-solving skills in real-world context. Students get engaged in problem-solving through research, experimentation and applying the learned skills</p>
+                        </mat-expansion-panel>
+                      <mat-expansion-panel  >
+                          
+                      <mat-expansion-panel-header>
+                         <mat-panel-title >Hands-on training Approach</mat-panel-title>
+                              </mat-expansion-panel-header>
+                              <p>Activities are customized for students based on their grade level. At StemBridgeLabs, we believe that learning is best when concepts can be felt, seen, grasped and implemented. With the successful implementation, concepts get hardwired in the mind which is the foremost objective of any education delivery model. And, PBL is the most feasible way to make it happen.</p>
+                          </mat-expansion-panel>
+                        <mat-expansion-panel  >
+                          
+                        <mat-expansion-panel-header>
+                            <mat-panel-title >Students Enhance their</mat-panel-title>
+                               </mat-expansion-panel-header>
+                                <ul>
+                                  <li>	Critical thinking </li>
+                                  <li> Problem-solving </li>
+                                  <li>Creativity </li>
+                                  <li>Innovation </li>
+                                  <li>Collaboration & Communication</li>
+                                </ul>
+                              </mat-expansion-panel>
+                              <mat-expansion-panel  >
+                                  <mat-expansion-panel-header>
+                                   <mat-panel-title >
+                                      We provide you with:
+                                    </mat-panel-title>        
+                                  </mat-expansion-panel-header>
+                                      <ul>
+                                        <li>Organized reference material which is aligned well with the curriculum and the PBL process.</li>
+                                        <li>Real-time projects & Material for the projects- All you need to do is understand the concepts and assemble your masterpiece.
+                                            Constant assistance by our team of experts along with debugging sessions and post workshop support.</li>
+                                        <li>A certificate of participation for your excellent spirit and inclusion in smart learning.</li>
+                                      </ul>
+                                    
+                               </mat-expansion-panel>
+                               <mat-expansion-panel  >
+                                  <mat-expansion-panel-header>
+                                   <mat-panel-title >
+                                          Duration for workshop
+                                    </mat-panel-title>        
+                                  </mat-expansion-panel-header>
+                                    <p>We organize 2, 3 and 5 days workshops in school premises to facilitate knowledge-based learning. Workshops are based on practical training where students learn skills in STEM and apply the same to various projects.</p>
+                               </mat-expansion-panel>
+                           
+                        </div>
+
+  <!-- </div> -->
+  <div class="row col-sm-4 moreSection margintp marginCenter">
+        <h3 class="heading" style="color: black"><b>More Courses</b>
+    <hr class="primary"></h3> 
+  </div>
+  <div class="row col-md-6 col-sm-8 col-lg-4 moreSection marginCenter" style="margin-top: -2%;">
+    <mat-card class="subcard2">
+      <mat-card-title>Summer/Winter camp</mat-card-title>
+    <mat-card-content class="hoverOn">
+      <div class="hoverOn">
+          <mat-raised-button class="btn-primary" (click)="scrolltop()" routerLink="/winter-summer-camp">Explore</mat-raised-button>
+        </div>
+    </mat-card-content>
+    <!-- <div style=" background-image: url(./../assets/img/homefor.jpg);"></div> -->
+    </mat-card>
+  </div>
+   
+<!-- </div> -->
+<app-dialog [(visible)]="showDialog">
+    <h4>Call us</h4>
+  <p> 
+    <img src="assets/img/baseline-call-24px.svg" style="width: 15%;">
+   <span style="font-size: 15px;"> <b>8552902424; 8851879656</b></span>
+  </p>
+  <hr> OR
+    
+  <div class="col-sm-12">
+            
+            <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+                #mc_embed_signup {
+                    background: #fff;
+                    clear: left;
+                    font: 14px Helvetica, Arial, sans-serif;
+                }
+
+                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup">
+                <form [formGroup]="registerForm" ngNoForm action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" target="_blank" method="POST"
+                    id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <input type=hidden name="oid" value="00D7F000001aeoR">
+                    <input type=hidden name="retURL" value="http://www.stembridgelabs.com">
+                    <div id="mc_embed_signup_scroll">
+                        <!-- <h2>Get in touch</h2> -->
+                        <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
+
+                         <div class="mc-field-group form-group">
+                            <label for="first_name">Name <span class="asterisk">*</span>
+                            </label>
+                            <input class="form-control" formControlName="nam" id="first_name" maxlength="40" name="first_name" size="20" type="text" [ngClass]="{ 'is-invalid': submitted && f.nam.errors }" />
+                            <div *ngIf="submitted && f.nam.errors" class="invalid-feedback">
+                                <div *ngIf="f.nam.errors.required">Name is required</div>
+                        </div>
+                        </div>
+                        <div class="mc-field-group form-group">
+                            <label for="email">Email Address <span class="asterisk">*</span>
+                            </label>
+                            <input class="form-control" formControlName="email" id="email" maxlength="80" name="email" size="20" type="text" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+                            <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                                <div *ngIf="f.email.errors.required">Email is required</div>
+                                <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+                            </div>
+
+                        </div>
+
+                        <div class="mc-field-group form-group">
+                            <label for="mobile">Phone Number <span class="asterisk">*</span>
+                            </label>
+                            <input class="form-control" formControlName="mob" id="mobile" maxlength="40" name="mobile" size="10" type="number" [ngClass]="{ 'is-invalid': submitted && f.mob.errors }" />
+                            <div *ngIf="submitted && f.mob.errors" class="invalid-feedback">
+                                <div *ngIf="f.mob.errors.required">Phone Number required</div>
+                        </div>
+                        </div>
+                        <div class="mc-field-group form-group">
+                            <label for="country">Leave your message <span class="asterisk">*</span>
+                            </label>
+                            <input class="form-control" formControlName="msg" id="00N7F00000O36cz" maxlength="180" name="00N7F00000O36cz" size="180" type="text" [ngClass]="{ 'is-invalid': submitted && f.msg.errors }" />
+                            <div *ngIf="submitted && f.msg.errors" class="invalid-feedback">
+                                <div *ngIf="f.msg.errors.required">Message is required</div>
+                        </div>
+                        </div>
+
+
+                        <div class="clear">
+                            <input (click)="onSubmit()" type="submit" value="submit" name="Submit" id="mc-embedded-subscribe"  class="btn btn-primary btn-lg">
+                        </div>
+                    </div>
+                    <!-- {{ngNoForm.validate}}======= -->
+                </form>
+            </div>
+</div>
+    <mat-card></mat-card>
+    <!-- <button (click)="showDialog = !showDialog" class="btn">Close</button> -->
+  </app-dialog>

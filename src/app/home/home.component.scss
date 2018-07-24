@@ -1,0 +1,246 @@
+
+.sidenav-container {
+    height: 100%;
+  }
+  ul{
+    font-size: 16px;
+  }
+  .sidenav {
+    width: 200px;
+    box-shadow: 3px 0 6px rgba(0,0,0,.24);
+  }
+
+  h1{
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 0.1;
+    color: white;
+  }
+
+  .clearfix{
+    height: 80px;
+  }
+  .middle-container{
+    padding: 150px;
+  }
+  .homepageBackground{
+ 
+    width: 100%;
+  }
+  
+  .animateTitle{
+    animation-name: title;
+    animation: ban 5s infinite alternate;
+  }
+  mat-card img{
+    object-fit: cover; /*this makes de image in src fit to the size of specified below*/
+    width: 100%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+    height: 80%;
+    background-color: transparent;
+  }
+  .container{
+    color :black;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px; 
+  }
+
+  .mat-card-content :hover {
+  display: block !important;
+}
+ 
+  .subcard6{
+    height: 326px;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    /* color: transparent; */
+    animation: move 2s infinite alternate;
+    background-image: url(./../../assets/img/hometwo.jpg);
+  }
+  .subcard3{
+    height: 326px;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    /* color: transparent; */    
+    animation: move 3s infinite alternate;
+    background-image: url(./../../assets/img/homethree.jpg);
+  }
+  .subcard4{
+    height: 326px;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    transition: all 1s;
+    animation: move 4s infinite alternate;
+    background-image: url(./../../assets/img/homefor.jpg);
+  }
+  .subcard5{
+    width: 100%;
+    height: 250px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    transition: all 1s;
+    animation: move 4s infinite alternate;
+    background-image: url(./../../assets/img/atlban.jpeg);
+  }
+  .subcard7{
+    width: 100%;
+    height: 250px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    transition: all 1s;
+    animation: move 4s infinite alternate;
+    background-image: url(./../../assets/img/aboutus.jpg);
+  }
+ 
+  .mat-card-title{
+    color:#aa863a;
+    font-size: 35px;
+    display: block;
+    font-weight: 800;
+    line-height: 1;
+  }
+  .subcard6 div , .subcard7 div, .subcard3 div , .subcard4 div , .subcard5 div {
+    display: none;
+  }
+  .subcard7:hover div, .subcard6:hover div , .subcard3:hover div , .subcard5:hover div, .subcard4:hover div {
+    display: block !important;
+  }
+  .subcard7:hover .mat-card-title, .subcard6:hover .mat-card-title , .subcard5:hover .mat-card-title, .subcard3:hover .mat-card-title , .subcard4:hover .mat-card-title{
+    display: none !important;
+  }
+  .subcard7 .hoverOn{
+    padding: 4px 4px 4px 90px;
+  }
+  .subcard7:hover{
+    background-color: #E54ED0;
+    // background-image : none;
+    background-image : none;
+    color: white;
+    width: 100%;
+    height: 270px;
+  }
+  .subcard6:hover{
+    background-color: #729f98;
+    background-image : none;
+    color: white;
+    width: 100%;
+    height: 350px;
+  }
+  .subcard3:hover {
+    background-color:#283018;
+    background-image : none;
+    color: white;
+    width: 100%;
+    height: 420px;
+  }
+  .subcard4:hover {
+    background-color:#aa863a;
+    background-image : none;
+    color: white;
+    width: 100%;
+    height: 380px;
+  }
+  .subcard5:hover {
+    background-color:#9068be;
+    background-image : none;
+    color: white;
+    width: 100%;
+    height: 270px; 
+  }
+  .techbook-screens{
+    animation: move 3s infinite alternate;
+  }
+
+  .heading{
+    animation: mover 5s infinite alternate;
+  }
+  @keyframes ban {
+    0% {
+      /* opacity: 0; */
+      transform: translate(3px , 10px);
+    }
+    100% {
+      /* opacity: 0; */
+      transform: translate(0 , 0px);
+    }
+  }
+  @keyframes title {
+    0% {
+      /* opacity: 0; */
+      transform: translate(30px , 100px);
+    }
+  }
+  @keyframes mover {
+    100% {
+      /* opacity: 0; */
+      transform: translate(2x, 10px);
+    }
+  }
+  @keyframes move {
+    100% {
+      /* opacity: 0; */
+      transform: translate(0px , 5px);
+    }
+  }
+
+.bannercontent{
+  margin-top: 1%;
+  background-color: #7fc9f642;
+  border-radius: 20px;
+}
+
+.ngxsliders{
+  height: 270px; 
+  width: 73%; 
+  margin-left: 15%;
+}
+
+.banheading{
+  font-size: 33px;
+  color: white;
+  font-weight: 800!important
+}
+.marginLeftt{
+  margin-left: 30%;
+}
+@media only screen and (max-width: 769px) {
+  .subcard5{
+    background-image: url(./../../assets/img/atlhomeban.jpg);
+  }
+  mat-card , .subcard3:hover, .subcard4:hover , .subcard5:hover , .subcard6:hover , .subcard7:hover{
+    width: 97%;
+  }
+  .subcard5 .mat-card-title{
+    display: none;
+  }
+  .bannercontent{
+    margin-top: 24%;
+  }
+  .banheading{
+    font-size: 28px!important;
+    color: white;
+    font-weight: 800!important;
+  }
+  .marginLeftt{
+    margin-left: 8%;
+  }
+  .ngxsliders{
+    height: 270px;
+    width: 100%;
+    margin-left: 0%
+  }
+}
+

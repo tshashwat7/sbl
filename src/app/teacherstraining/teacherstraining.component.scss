@@ -1,0 +1,10 @@
+.mat-card {
+    background: transparent;
+    color: black;
+}
+.paddingpbl{
+    margin-left: 7%;
+}
+.mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: none;
+}

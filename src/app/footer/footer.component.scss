@@ -1,0 +1,36 @@
+// @import
+// 'abstracts/variables',
+// 'abstracts/functions',
+// 'abstracts/mixins';
+
+footer {
+  padding: calculateRem(8px) calculateRem(16px);
+//   color: $secondary--color;
+//   background: $primary--color;
+  margin-top: 2rem;
+  position: sticky;
+  top: 100%;
+
+  img {
+    width: 25%;
+  }
+}
+
+.footer-xs {
+  text-align: center;
+  padding-top: 1rem;
+}
+mat-card{
+  border-top: 10px solid blue; 
+}
+.compres {
+  // margin-top: 2%;
+ margin-bottom: 0px!important;
+ text-align: center;
+ margin: -25px;
+ max-width: 1320px;
+ 
+}
+// .mat-card-content>:first-child, .mat-card>:first-child {
+//   margin-top: -30px;
+// }
